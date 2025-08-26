@@ -1,0 +1,134 @@
+Samraksha
+Prescription Verification System
+
+Problem Statement
+Fake and invalid medical prescriptions are increasingly becoming a significant issue. They
+pose risks to patients, contribute to drug misuse. Existing methods, such as handwritten
+prescriptions, QR codes, and electronic prescriptions lack sufficient security. These can be
+easily replicated or forged, and they do not consistently verify the authenticity of the
+prescription or its association with the correct individual. This situation complicates trust for
+both pharmacists and patients regarding the validity of prescriptions. Therefore, there is an
+urgent need for a secure, identity-based, and user-friendly digital system to verify the
+authenticity of prescriptions.
+
+Proposed Solution
+Samraksha is an innovative prescription verification system that utilizes dynamic, encrypted
+barcodes to guarantee the uniqueness, timeliness, and connection of each prescription to
+the patient's Aadhaar or mobile number. Samraksha falls under Sustainable Development
+Goal (SDG) 3: Good Health and Well-Being.
+
+Key Features
+
+
+
+
+
+Dynamic and Encrypted Barcodes: Safeguard against duplication and forgery.
+Aadhaar-linked Identity: Guarantees secure and verifiable prescriptions.
+Universal Access: The same web application functions on both desktops and mobile
+browsers.
+Real-Time Sync: Firebase delivers immediate data updates when connected to the
+internet.
+
+Future Enhancements
+
+
+Offline Verification: Support for areas with poor connectivity using PouchDB.
+
+
+
+Dedicated Mobile Application: Faster access and improved usability.
+
+System Flow Diagram
+
+Samraksha
+Prescription Verification System
+
+Impact of the Solution
+
+
+
+
+
+Reduces Drug Abuse: Guarantees that only authenticated prescriptions are provided.
+Builds Trust: Between healthcare providers, patients, and pharmacies.
+Accessibility: Functions on various devices, and upcoming enhancements will
+accommodate offline regions.
+Scalability: Capable of extending to insurance validation, patient records, and
+nationwide implementation.
+
+Technical Feasibility
+
+
+Frontend: HTML, CSS, JavaScript
+
+
+
+Backend: Node.js
+
+
+
+Database: MongoDB
+
+
+
+Barcode Generation: Zebra Barcode Software, ZXing
+
+
+
+Security: AES Encryption, JWT, OAuth 2.0
+
+
+
+Hosting: AWS, Heroku
+
+
+
+Aadhaar Integration: UIDAI Authentication API
+
+Operational Feasibility
+
+
+
+
+Minimal training required for hospital staff and pharmacists.
+Requires an active internet connection at present.
+Future Enhancements: Dedicated mobile app and offline verification for rural
+deployment.
+
+Economic Feasibility
+Component
+
+Cost Estimate
+
+AWS Hosting & Server
+
+₹15,000/year
+
+Barcode Software (one-time)
+
+₹15,000
+
+Developer & Maintenance
+
+₹30,000
+
+Aadhaar API Access
+
+₹5,000
+
+Miscellaneous
+
+₹5,000
+
+Totals
+
+₹70,000
+
+Conclusion
+Samraksha guarantees secure and tamper-resistant prescription verification by utilizing
+dynamic encrypted barcodes and Aadhaar-linked identities, fostering trust among patients,
+healthcare providers, and pharmacists. it promotes SDG 3: Good Health and Well-Being by
+ensuring reliable and trustworthy access to safe medications.
+
+
